@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-01 15:28:52 UTC",
+  "last_updated": "2026-02-01 15:32:01 UTC",
   "threshold_percent": 15,
   "total_screened": 90,
   "stocks_found": 18,
@@ -18,7 +18,7 @@
       "dividend_yield": 1.05,
       "market_cap_fmt": "$50.34B",
       "pe_ratio_fmt": "10.67",
-      "dividend_yield_fmt": "105.00%"
+      "dividend_yield_fmt": "1.05%"
     },
     {
       "ticker": "INTU",
@@ -34,7 +34,7 @@
       "dividend_yield": 0.9,
       "market_cap_fmt": "$138.90B",
       "pe_ratio_fmt": "34.24",
-      "dividend_yield_fmt": "90.00%"
+      "dividend_yield_fmt": "0.90%"
     },
     {
       "ticker": "CRM",
@@ -50,7 +50,7 @@
       "dividend_yield": 0.78,
       "market_cap_fmt": "$202.10B",
       "pe_ratio_fmt": "28.57",
-      "dividend_yield_fmt": "78.00%"
+      "dividend_yield_fmt": "0.78%"
     },
     {
       "ticker": "NFLX",
@@ -114,7 +114,7 @@
       "dividend_yield": 2.38,
       "market_cap_fmt": "$190.23B",
       "pe_ratio_fmt": "28.46",
-      "dividend_yield_fmt": "238.00%"
+      "dividend_yield_fmt": "2.38%"
     },
     {
       "ticker": "BRK-B",
@@ -146,7 +146,7 @@
       "dividend_yield": 0.83,
       "market_cap_fmt": "$620.50B",
       "pe_ratio_fmt": "30.22",
-      "dividend_yield_fmt": "83.00%"
+      "dividend_yield_fmt": "0.83%"
     },
     {
       "ticker": "ZTS",
@@ -162,7 +162,7 @@
       "dividend_yield": 1.74,
       "market_cap_fmt": "$55.32B",
       "pe_ratio_fmt": "20.50",
-      "dividend_yield_fmt": "174.00%"
+      "dividend_yield_fmt": "1.74%"
     },
     {
       "ticker": "PG",
@@ -178,7 +178,7 @@
       "dividend_yield": 2.82,
       "market_cap_fmt": "$355.22B",
       "pe_ratio_fmt": "22.22",
-      "dividend_yield_fmt": "282.00%"
+      "dividend_yield_fmt": "2.82%"
     },
     {
       "ticker": "SO",
@@ -194,7 +194,7 @@
       "dividend_yield": 3.32,
       "market_cap_fmt": "$98.34B",
       "pe_ratio_fmt": "22.16",
-      "dividend_yield_fmt": "332.00%"
+      "dividend_yield_fmt": "3.32%"
     },
     {
       "ticker": "COST",
@@ -210,7 +210,7 @@
       "dividend_yield": 0.55,
       "market_cap_fmt": "$417.43B",
       "pe_ratio_fmt": "51.02",
-      "dividend_yield_fmt": "55.00%"
+      "dividend_yield_fmt": "0.55%"
     },
     {
       "ticker": "SYK",
@@ -226,7 +226,7 @@
       "dividend_yield": 0.95,
       "market_cap_fmt": "$141.33B",
       "pe_ratio_fmt": "44.05",
-      "dividend_yield_fmt": "95.00%"
+      "dividend_yield_fmt": "0.95%"
     },
     {
       "ticker": "DUK",
@@ -242,7 +242,7 @@
       "dividend_yield": 3.52,
       "market_cap_fmt": "$94.37B",
       "pe_ratio_fmt": "19.05",
-      "dividend_yield_fmt": "352.00%"
+      "dividend_yield_fmt": "3.52%"
     },
     {
       "ticker": "MCD",
@@ -258,7 +258,7 @@
       "dividend_yield": 2.36,
       "market_cap_fmt": "$224.79B",
       "pe_ratio_fmt": "26.95",
-      "dividend_yield_fmt": "236.00%"
+      "dividend_yield_fmt": "2.36%"
     },
     {
       "ticker": "MDLZ",
@@ -274,7 +274,7 @@
       "dividend_yield": 3.49,
       "market_cap_fmt": "$75.66B",
       "pe_ratio_fmt": "21.50",
-      "dividend_yield_fmt": "349.00%"
+      "dividend_yield_fmt": "3.49%"
     },
     {
       "ticker": "ACN",
@@ -290,7 +290,7 @@
       "dividend_yield": 2.5,
       "market_cap_fmt": "$163.49B",
       "pe_ratio_fmt": "21.59",
-      "dividend_yield_fmt": "250.00%"
+      "dividend_yield_fmt": "2.50%"
     }
   ]
 }
