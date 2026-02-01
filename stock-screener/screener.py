@@ -97,6 +97,7 @@ def fetch_stock_data(ticker):
             'pct_above_low': round(pct_above_low, 2),
             'range_position': round(range_position, 2),
             'pe_ratio': info.get('trailingPE'),
+            'forward_pe': info.get('forwardPE'),
             'market_cap': info.get('marketCap'),
             'dividend_yield': info.get('dividendYield')
         }
@@ -138,6 +139,7 @@ def main():
     for stock in cheap_stocks:
         stock['market_cap_fmt'] = format_market_cap(stock['market_cap'])
         stock['pe_ratio_fmt'] = f"{stock['pe_ratio']:.2f}" if stock['pe_ratio'] else 'N/A'
+        stock['forward_pe_fmt'] = f"{stock['forward_pe']:.2f}" if stock['forward_pe'] else 'N/A'
         stock['dividend_yield_fmt'] = f"{stock['dividend_yield']:.2f}%" if stock['dividend_yield'] else 'N/A'
 
     output = {

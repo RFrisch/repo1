@@ -308,6 +308,7 @@
                         <th data-sort="pct_above_low">Above Low <span class="sort-icon"></span></th>
                         <th>Range</th>
                         <th data-sort="pe_ratio">P/E <span class="sort-icon"></span></th>
+                        <th data-sort="forward_pe">NTM P/E <span class="sort-icon"></span></th>
                         <th data-sort="market_cap">Mkt Cap <span class="sort-icon"></span></th>
                     </tr>
                 </thead>
@@ -429,6 +430,7 @@
                         </div>
                     </td>
                     <td class="price">${stock.pe_ratio_fmt}</td>
+                    <td class="price">${stock.forward_pe_fmt}</td>
                     <td class="price">${stock.market_cap_fmt}</td>
                 `;
 
