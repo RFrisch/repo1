@@ -101,7 +101,7 @@ def main():
     for stock in cheap_stocks:
         stock['market_cap_fmt'] = format_market_cap(stock['market_cap'])
         stock['pe_ratio_fmt'] = f"{stock['pe_ratio']:.2f}" if stock['pe_ratio'] else 'N/A'
-        stock['dividend_yield_fmt'] = f"{stock['dividend_yield']*100:.2f}%" if stock['dividend_yield'] else 'N/A'
+        stock['dividend_yield_fmt'] = f"{stock['dividend_yield']:.2f}%" if stock['dividend_yield'] else 'N/A'
 
     output = {
         'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC'),
