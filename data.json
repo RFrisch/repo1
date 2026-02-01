@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-01 15:37:23 UTC",
+  "last_updated": "2026-02-01 15:40:31 UTC",
   "threshold_percent": 15,
   "total_screened": 324,
   "stocks_found": 59,
@@ -670,9 +670,9 @@
       "pct_above_low": 11.06,
       "range_position": 39.24,
       "pe_ratio": 22.221085,
-      "market_cap": 354646032384,
+      "market_cap": 355215474688,
       "dividend_yield": 2.82,
-      "market_cap_fmt": "$354.65B",
+      "market_cap_fmt": "$355.22B",
       "pe_ratio_fmt": "22.22",
       "dividend_yield_fmt": "2.82%"
     },
