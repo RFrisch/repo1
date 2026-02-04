@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04 07:04:26 UTC",
+  "last_updated": "2026-02-04 13:20:01 UTC",
   "threshold_percent": 15,
   "total_screened": 324,
   "stocks_found": 66,
@@ -122,12 +122,12 @@
       "pct_above_low": 0.65,
       "range_position": 0.66,
       "pe_ratio": 7.7079487,
-      "forward_pe": 6.8643785,
+      "forward_pe": 6.930007,
       "market_cap": 39839281152,
       "dividend_yield": 1.34,
       "market_cap_fmt": "$39.84B",
       "pe_ratio_fmt": "7.71",
-      "forward_pe_fmt": "6.86",
+      "forward_pe_fmt": "6.93",
       "dividend_yield_fmt": "1.34%"
     },
     {
@@ -266,12 +266,12 @@
       "pct_above_low": 2.88,
       "range_position": 4.1,
       "pe_ratio": 10.198786,
-      "forward_pe": 4.8879147,
+      "forward_pe": 4.8745356,
       "market_cap": 18819588096,
       "dividend_yield": 1.49,
       "market_cap_fmt": "$18.82B",
       "pe_ratio_fmt": "10.20",
-      "forward_pe_fmt": "4.89",
+      "forward_pe_fmt": "4.87",
       "dividend_yield_fmt": "1.49%"
     },
     {
@@ -806,12 +806,12 @@
       "pct_above_low": 11.41,
       "range_position": 23.1,
       "pe_ratio": 13.504672,
-      "forward_pe": 6.9975786,
+      "forward_pe": 7.2280173,
       "market_cap": 6953979904,
       "dividend_yield": 2.63,
       "market_cap_fmt": "$6.95B",
       "pe_ratio_fmt": "13.50",
-      "forward_pe_fmt": "7.00",
+      "forward_pe_fmt": "7.23",
       "dividend_yield_fmt": "2.63%"
     },
     {
@@ -1058,7 +1058,7 @@
       "pct_above_low": 14.0,
       "range_position": 32.7,
       "pe_ratio": 30.211006,
-      "forward_pe": 17.3872,
+      "forward_pe": 17.38596,
       "market_cap": 150532259840,
       "dividend_yield": 0.83,
       "market_cap_fmt": "$150.53B",
