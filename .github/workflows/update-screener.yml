@@ -2,8 +2,8 @@ name: Update Stock Screener
 
 on:
   schedule:
-    # Run every 6 hours during market days
-    - cron: '0 */6 * * 1-5'
+    # Run once daily at 22:30 ET (03:30 UTC) after market close, weekdays only
+    - cron: '30 3 * * 2-6'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
