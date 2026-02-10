@@ -150,8 +150,8 @@ def main():
         'stocks': cheap_stocks
     }
 
-    # Save to JSON (in repo root for GitHub Pages)
-    output_path = REPO_ROOT / 'data.json'
+    # Save to JSON in stock-screener directory
+    output_path = Path(__file__).parent / 'data.json'
     with open(output_path, 'w') as f:
         json.dump(output, f, indent=2)
 
