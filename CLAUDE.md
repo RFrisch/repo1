@@ -11,7 +11,6 @@ This is a collection of standalone Python scripts for quantitative finance and f
 - **Credit scoring Gemini.py**: Credit scoring model using logistic regression with Weight of Evidence (WOE) and Information Value (IV) feature engineering. Generates a points-based scorecard for credit card customer evaluation.
 - **duration_convexity.py**: Bond duration and convexity calculator. Outputs results to Excel.
 - **signalMA.py**: Moving average crossover trading signal generator with visualization.
-- **stock-screener/**: 52-week low stock screener. Identifies stocks trading within 15% of their 52-week lows using yfinance. Includes a frontend (`index.html`) and a GitHub Actions workflow that runs daily after market close.
 
 ## Running Scripts
 
@@ -19,7 +18,6 @@ This is a collection of standalone Python scripts for quantitative finance and f
 python "Credit scoring Gemini.py"
 python duration_convexity.py
 python signalMA.py
-python stock-screener/screener.py
 ```
 
 ## Dependencies
@@ -29,4 +27,3 @@ Common dependencies across scripts:
 - numpy
 - matplotlib
 - scikit-learn (for credit scoring)
-- yfinance (for stock screener)
