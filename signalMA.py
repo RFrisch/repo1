@@ -2,8 +2,12 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Config: moving average windows (easy to tweak)
+SHORT_WINDOW = 40
+LONG_WINDOW = 100
+
 # Define a function to generate signals based on moving average crossover
-def generate_signals(data, short_window=40, long_window=100):
+def generate_signals(data, short_window=SHORT_WINDOW, long_window=LONG_WINDOW):
     signals = pd.DataFrame(index=data.index)
     signals['signal'] = 0.0
     
@@ -32,11 +36,19 @@ data = pd.DataFrame({'Close': prices}, index=dates)
 # Generate trading signals
 signals = generate_signals(data)
 
+# Simple strategy stats: buy-and-hold when signal is 1
+n_buys = (signals['positions'] == 1.0).sum()
+n_sells = (signals['positions'] == -1.0).sum()
+returns = data['Close'].pct_change()
+strategy_returns = returns * signals['signal'].shift(1)
+cumulative_return = (1 + strategy_returns).prod() - 1
+print(f"MA Crossover ({SHORT_WINDOW}/{LONG_WINDOW}): {n_buys} buys, {n_sells} sells | Cumulative return: {cumulative_return:.2%}")
+
 # Plotting the closing price and moving averages
 plt.figure(figsize=(14, 7))
 plt.plot(data['Close'], label='Close Price')
-plt.plot(signals['short_mavg'], label='40-Day Moving Average')
-plt.plot(signals['long_mavg'], label='100-Day Moving Average')
+plt.plot(signals['short_mavg'], label=f'{SHORT_WINDOW}-Day Moving Average')
+plt.plot(signals['long_mavg'], label=f'{LONG_WINDOW}-Day Moving Average')
 
 # Plot buy signals
 plt.plot(signals.loc[signals.positions == 1.0].index, 
@@ -48,11 +60,12 @@ plt.plot(signals.loc[signals.positions == -1.0].index,
          signals.short_mavg[signals.positions == -1.0],
          'v', markersize=10, color='r', lw=0, label='Sell Signal')
 
-plt.title('Moving Average Crossover Strategy')
+plt.title(f'Moving Average Crossover Strategy ({SHORT_WINDOW}/{LONG_WINDOW})')
 plt.xlabel('Date')
 plt.ylabel('Price')
 plt.legend()
-plt.grid()
+plt.grid(alpha=0.3)
+plt.tight_layout()
 plt.show()
 
 
